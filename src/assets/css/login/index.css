@@ -1,0 +1,26 @@
+.login{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    height: 400px;
+    background:rgb(0, 0, 0,0.4);
+    border-radius: 10px;
+}
+
+.ant-form-item{
+    width: 400px;
+}
+.login-form{
+    width: 400px;
+    position: relative;
+    margin: 50px auto !important;
+}
+.loginTitle{
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    color: white;
+}
