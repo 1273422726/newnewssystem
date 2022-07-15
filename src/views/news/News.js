@@ -6,7 +6,7 @@ export default function News() {
   const [list, setlist] = useState([]);
   useEffect(() => {
     axios.get("/news?publishState=2&_expand=category").then((res) => {
-      // console.log()
+      console.log(res.data);
       setlist(
         Object.entries(_.groupBy(res.data, (item) => item.category.title))
       );
